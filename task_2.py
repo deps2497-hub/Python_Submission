@@ -4,4 +4,3 @@ last_name = input("Enter Last Name: ")
 full_name = first_name + ' ' + last_name
 
 print("Hello, ", full_name,"! we welcome you to learn Python Program.", sep='')
-
