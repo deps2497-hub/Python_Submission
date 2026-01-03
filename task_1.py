@@ -1,18 +1,6 @@
-first_number = input("Enter First Number: ")
-second_number = input("Enter Second Number: ")
+num = int(input("Enter a Interger Number:"))
 
-addition = int(first_number) + int(second_number)
-
-subtraction = int(first_number) - int(second_number)
-
-multiplication = int(first_number) * int(second_number)
-
-division = int(first_number) / int(second_number)
-
-print("Addition:", addition)
-
-print("Subtraction:", subtraction)
-
-print("Multiplication:", multiplication)
-
-print("Division:", division)
+if num % 2 == 0:
+    print(num,"is an even number.")
+else:
+    print(num,"is an odd number.")
